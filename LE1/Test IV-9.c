@@ -19,6 +19,7 @@ int main(){
             }
             printf("Print another square? Enter y or n: "); //allowing the user to decide whether or not to continue using the program
             scanf("%c", &cont);     //accepting another input from the user
+            
             if (cont == 'n'){
             printf("END");      //print statement if the user selects to terminate the program
             }
